@@ -54,3 +54,25 @@
 <td align="center"><a href="https://drive.google.com/file/d/1-tYnWz6e85q_lBjq7AbsU0kC80vnhWUY/view?usp=sharing">model</a>&nbsp;|&nbsp;<a href="https://drive.google.com/file/d/1VgvLTd9AvRy9H5Op1mkXfMC3piED6bRO/view?usp=sharing">metrics</a></td>
 </tr>
 </tbody></table>
+
+
+faster rcnn
+lr sched 3x 
+| Name | train time(s/iter)|infer time(s/im)|train mem(GB)|box AP|
+|:------:|:------:|:------:|:------:|:------:|
+|R50-FPN|||||
+|R50-FPN-Apex|0.326|0.051|2.8|40.1|
+
+RetineNet
+lr sched 3x 
+| Name | train time(s/iter)|infer time(s/im)|train mem(GB)|box AP|
+|:------:|:------:|:------:|:------:|:------:|
+|R50|||||
+|R50-Apex|0.258|0.077|3.3|38.3|
+
+Mask R-CNN
+lr sched 3x 
+| Name | train time(s/iter)|infer time(s/im)|train mem(GB)|box AP|mask AP|
+|:------:|:------:|:------:|:------:|:------:|:------:|
+|R50-FPN||||||
+|R50-FPN-Apex|0.388|0.057|3.3|40.9|37.2|
