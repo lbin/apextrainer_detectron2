@@ -67,7 +67,7 @@ RetineNet
 lr sched 3x 
 | Name | train time(s/iter)|infer time(s/im)|train mem(GB)|box AP|
 |:------:|:------:|:------:|:------:|:------:|
-|R50|||||
+|R50|0.284|0.078|3.9|38.2|
 |R50-Apex|0.258|0.077|3.3|38.3|
 
 Mask R-CNN
