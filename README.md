@@ -17,13 +17,13 @@ lr sched 1x
 |R50-FPN|0.266 |0.056 | 2.9| 37.9|
 |R50-FPN-Apex|0.266|0.051|2.6|37.9|
 
-RetineNet
+### RetineNet
 lr sched 1x 
 | Name | train time(s/iter)|infer time(s/im)|train mem(GB)|box AP|
 |:------:|:------:|:------:|:------:|:------:|
 |R50-V100|0.200|	0.062	|3.9	|36.5|
 |R50| 0.281|0.080 |3.9 | 36.5|
-|R50-Apex|0.248|0.069|3.3|36.6|
+|R50-Apex|0.248|0.067|3.275|36.4|
 
 Mask R-CNN
 lr sched 1x 
