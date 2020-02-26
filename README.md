@@ -3,7 +3,7 @@
 
 ## Install Apex
 
-- apex: `git clone https://github.com/NVIDIA/apex; cd apex; pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./`
+- apex: `pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" --upgrade 'git+https://github.com/NVIDIA/apex'`
 
 ## Results:
 
